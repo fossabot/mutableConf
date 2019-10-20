@@ -1,0 +1,25 @@
+{
+  "name": "mutableConf",
+  "version": "1.0.0",
+  "description": "Easy to use mutable configuration utilities for node apps",
+  "main": "src/index.js",
+  "module": "main.js",
+  "author": "Oliver Herrmann <oliver@monoxane.io>",
+  "license": "MIT",
+  "scripts": {
+    "debug": "DEBUG=* node .",
+    "e2e": "DEBUG=* node ./e2e/index.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
